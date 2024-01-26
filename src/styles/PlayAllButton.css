@@ -1,0 +1,39 @@
+PlayAllButton.css
+
+div {
+    flex-direction: row; /* Change to row to align buttons horizontally */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #cc0044;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Add responsive styles for smaller screens if needed */
+    button {
+      font-size: 16px;
+    }
+  }
+  
