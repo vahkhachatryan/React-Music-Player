@@ -1,0 +1,61 @@
+.parent_div {
+  margin: 0 auto;
+  width: 200px;
+}
+.upload_file {
+  width: 200px;
+  transition: 0.8s;
+}
+.upload_file:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.parent_div h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.uploaded-song {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+.dropzone {
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropzone p {
+  margin: 0;
+}
+
+.dropzone.active {
+  border-color: #ff3366;
+}
+
+.dropzone:hover {
+  background-color: #f9f9f9;
+}
+
+.dropzone input {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
